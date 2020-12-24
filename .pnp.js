@@ -42,6 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:14.14.16"],
             ["@types/prettier", "npm:2.1.6"],
             ["cjays", "npm:1.0.3"],
+            ["clean-stack", "npm:3.0.1"],
             ["husky", "npm:4.3.6"],
             ["lint-staged", "npm:10.5.3"],
             ["prettier", "npm:2.2.1"],
@@ -774,6 +775,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["clean-stack", "npm:2.2.0"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:3.0.1", {
+          "packageLocation": "./.yarn/cache/clean-stack-npm-3.0.1-85c3878b76-735d54fcd0.zip/node_modules/clean-stack/",
+          "packageDependencies": [
+            ["clean-stack", "npm:3.0.1"],
+            ["escape-string-regexp", "npm:4.0.0"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["cli-cursor", [
@@ -1195,6 +1204,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:14.14.16"],
             ["@types/prettier", "npm:2.1.6"],
             ["cjays", "npm:1.0.3"],
+            ["clean-stack", "npm:3.0.1"],
             ["husky", "npm:4.3.6"],
             ["lint-staged", "npm:10.5.3"],
             ["prettier", "npm:2.2.1"],
@@ -1210,6 +1220,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/escape-string-regexp-npm-1.0.5-3284de402f-f9484b8b4c.zip/node_modules/escape-string-regexp/",
           "packageDependencies": [
             ["escape-string-regexp", "npm:1.0.5"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:4.0.0", {
+          "packageLocation": "./.yarn/cache/escape-string-regexp-npm-4.0.0-4b531d8d59-c747be8d5f.zip/node_modules/escape-string-regexp/",
+          "packageDependencies": [
+            ["escape-string-regexp", "npm:4.0.0"]
           ],
           "linkType": "HARD",
         }]

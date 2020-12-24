@@ -63,6 +63,7 @@
     }
   },
   "dependencies": {
-    "cjays": "^1.0.3"
+    "cjays": "^1.0.3",
+    "clean-stack": "^3.0.1"
   }
 }
