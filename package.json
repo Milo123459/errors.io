@@ -1,12 +1,13 @@
 {
   "name": "errors.io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "ts-node-dev --respawn --transpile-only --poll ./src/index.ts",
     "lint": "prettier --write .",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "yarn build"
   },
   "keywords": [],
   "author": "",
@@ -65,5 +66,6 @@
   "dependencies": {
     "cjays": "^1.0.3",
     "clean-stack": "^3.0.1"
-  }
+  },
+  "typings": "./dist/index.d.ts"
 }
